@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/back_color_one">
+
+    <include layout="@layout/layout_top"/>
+    <include layout="@layout/include_title_layout"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/top_yxs_color"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="网络 SSID" />
+
+
+        <TextView
+            android:id="@+id/et_wifi_name"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/wlan_sr"
+            android:textColor="@color/edit_text_color"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:lines="1"
+            android:maxLength="10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/top_yxs_color"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="密码" />
+
+
+        <TextView
+            android:id="@+id/et_wifi_password"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/wlan_sr"
+            android:textSize="20sp"
+            android:textColor="@color/edit_text_color"
+            android:layout_gravity="center_vertical"
+            android:lines="1"
+            android:maxLength="10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#C8C8C8"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_1"
+            android:text="密码至少应包含8个字符，建议至少包含两种类型的字符"
+            android:textSize="@dimen/dp_14"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10">
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/top_yxs_color"
+                android:text="取消"
+                android:background="@drawable/cancle_click"/>
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/top_yxs_color"
+                android:text="保存"
+                android:background="@drawable/sure_click"
+                android:layout_toRightOf="@+id/btn_cancle"
+                android:layout_marginLeft="@dimen/dp_20"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

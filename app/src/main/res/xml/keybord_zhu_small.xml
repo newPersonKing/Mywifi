@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="74dp"
+    android:verticalGap="3dp"
+    android:horizontalGap="3dp"
+    android:keyHeight="48dp">
+
+    <Row>
+        <Key android:keyIcon="@drawable/a_01" android:codes="12" ></Key>
+        <Key android:keyIcon="@drawable/abc_a2" android:codes="13" ></Key>
+        <Key android:keyIcon="@drawable/def_a3" android:codes="14" ></Key>
+    </Row>
+
+
+    <Row >
+        <Key android:keyIcon="@drawable/ghi_a4" android:codes="15" ></Key>
+        <Key android:keyIcon="@drawable/jkl_a5" android:codes="16" ></Key>
+        <Key  android:keyIcon="@drawable/mno_a6" android:codes="17" />
+    </Row>
+
+    <Row>
+        <Key android:keyIcon="@drawable/pqrs_a7" android:codes="18" ></Key>
+        <Key android:keyIcon="@drawable/tuv_a8" android:codes="19" ></Key>
+        <Key  android:keyIcon="@drawable/wxyz_a9" android:codes="20" />
+    </Row>
+
+    <Row >
+        <Key android:keyIcon="@drawable/dxx_a" android:codes="9" ></Key>
+        <Key android:keyIcon="@drawable/symbol_a" android:codes="10" ></Key>
+        <Key  android:keyIcon="@drawable/backspace_a" android:codes="11" />
+    </Row>
+</Keyboard>

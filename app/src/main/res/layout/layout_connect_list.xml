@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_back_color">
+
+    <include layout="@layout/layout_top"/>
+    <include layout="@layout/include_title_layout"/>
+
+    <TextView
+        android:id="@+id/tv_connet_size"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/back_color_one"
+        android:textSize="@dimen/text_size_16sp"
+        android:textColor="@color/white"
+        android:text="已连接设备（0）台"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_10"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

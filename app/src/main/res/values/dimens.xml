@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_margin">15dp</dimen>
+
+    <dimen name="space">15dp</dimen>
+
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dp_05">0.5dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_23">23dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_29">29dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_47">47dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_75">75dp</dimen>
+    <dimen name="dp_76">76dp</dimen>
+    <dimen name="dp_82">82dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_133">133dp</dimen>
+    <dimen name="dp_184">184dp</dimen>
+    <dimen name="dp_185">185dp</dimen>
+    <dimen name="dp_95">95dp</dimen>
+    <dimen name="dp_225">225dp</dimen>
+
+    <dimen name="sp_14">14sp</dimen>
+
+    <dimen name="item_padding_left_right">16dp</dimen>
+    <dimen name="item_padding_top_bottom">16dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+
+    <dimen name="text_size_10sp">10sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+
+    <!-- 默认的深度-->
+    <dimen name="elevation_default">8dp</dimen>
+
+    <dimen name="BasicTextSize">15dp</dimen>
+
+</resources>
